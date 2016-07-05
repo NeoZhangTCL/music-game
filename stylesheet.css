@@ -1,0 +1,62 @@
+html, body {
+    height:100%;
+    background-color: #E3CAA8;
+}
+
+.Row{
+    display: table;
+    width: 100%; /*Optional*/
+    height: 100%;
+    border-spacing: 20px; /*Optional*/
+}
+
+.Column{
+    display: table-cell;
+    border-radius: 10px;
+    height: 100%;
+    width: 12%;
+}
+
+p {
+  text-align:center;
+  color: white;
+  font-size: 30px;
+  font-family: Georgia;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+.Do{
+    background-color: #aa1100; /*Optional*/
+}
+
+.Re{
+    background-color: #ff4400; /*Optional*/
+}
+
+.Mi{
+    background-color: #ffbb11; /*Optional*/
+}
+
+.Fa{
+    background-color: #55aa00; /*Optional*/
+}
+
+.So{
+    background-color: #000055; /*Optional*/
+}
+
+.La{
+    background-color: #310062; /*Optional*/
+}
+
+.Ti{
+    background-color: #4b0082; /*Optional*/
+}
